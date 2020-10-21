@@ -1,0 +1,111 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "name": "The Entrance Hall",
+        "short_description": "This is the entrance hall of the school.",
+        "long_description": "The entrance hall, also known as the front hall is located on the ground floor of the school.\n\n  Exits:\n  The Great Hall (E)\n  The Astronomy Room (W)\n  The Common Room (N)", 
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "E"
+          },
+          {
+            "id": 102,
+            "dir": "W"
+          },
+          {
+            "id": 103,
+            "dir": "N"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "start": "true",
+        "name": "The Great Hall",
+        "short_description": "This is the great hall of the school.",
+        "long_description": "The great hall is the main gathering area in the school.\n\n  Exits:\n  The Entrance Hall (W)",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "The Astronomy Room",
+        "short_description": "This is the astronomy room",
+        "long_description": "The astronomy room is dedicated to the study of astronomy.\n\n  Exits:\n  The Entrance Hall (E)",
+        "entrance": [
+          {
+            "id": 100,
+	          "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "The Common Room",
+        "short_description": "This is the Common Room",
+        "long_description": "This room serves as the living quarters for students during the school year.\n\n  Exits:\n  The Entrance Hall (S)\n  The Library (N)",
+        "entrance": [
+          {
+            "id": 100,
+	          "dir": "S"
+          },
+          {
+            "id": 104,
+	          "dir": "N"
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "The Library",
+        "short_description": "This is the school's Library",
+        "long_description": "The library contains tens of thousands of books.\n\n  Exits:\n  TheCommon Room (S)",
+        "entrance": [
+          {
+            "id": 103,
+	          "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "Food",
+        "desc": "A delicious meal"
+      },
+      {
+        "id": 2,
+        "name": "Cloak",
+        "desc": "This is the cloak of invisibility, it will make you invisible. Use it at your own risk!"
+      },
+      {
+        "id": 3,
+        "name": "Book Look",
+        "desc": "This is an astronomy book, it containins important information"
+      }
+    ]
+  }
+}
