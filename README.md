@@ -1,9 +1,3 @@
-## Author Information
-
-* Name: Sophie Michaud
-* Email: sophiem@uoguelph.ca
-* Student ID: 0999546
-
 ## Running from the Command Line
 
 1. From the project folder, use mvn assembly:assembly to create the jar file.
@@ -53,8 +47,4 @@ If the user chooses "yes", they will then be asked to enter a file name for thei
 3. The main text area **displays the game output** given a valid command.
 4. The smaller text area on the LHS of the GUI displays all of the valid commands for user reference.
 5. The smaller text area on the RHS of the GUI displays the **Player's Current Inventory**
-
-## Statement of Individual Work
-
-By the action of submitting this work for grading, I certify that this assignment is my own work, based on my personal study.  I also certify that no parts of this assignment have previously been submitted for assessment in any other course, except where specific permission has been granted.  Finally, I certify that I have not copied in part or whole  or otherwise plagiarised the work of other persons.
 
