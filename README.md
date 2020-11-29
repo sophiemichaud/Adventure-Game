@@ -1,3 +1,7 @@
+This is an application that I developped in my object-oriented programming course. The objective of this project was to develop a text-based adventure game in Java based on the Colossal Cave Adventure game, developed in 1975 by Will Crowther.
+
+Below are the instructions for running and using the game from either the command line or the GUI. 
+
 ## Running from the Command Line
 
 1. From the project folder, use mvn assembly:assembly to create the jar file.
